@@ -108,9 +108,9 @@ var updateScore = function() {
     });
 
     //GET BEST SCORE
-    $.get('scores.php', function(data) {
+    /*$.get('scores.php', function(data) {
         $('.best-container>p').text(data[0].bestscore); //BEST SCORE
-    });
+    });*/
 
 }
 
