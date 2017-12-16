@@ -1,4 +1,5 @@
-# 2048
-2048 in Javascript JQuery/AJAX with an NBA theme
+# This is a copy of 2048 made by Gabriele Cirulli
 
-This game is made for personal use.
+This was made for Javascript pratice and learning
+
+You can play it at https://jdesfon.github.io/
