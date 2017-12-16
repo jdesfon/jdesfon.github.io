@@ -1,0 +1,306 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #776e65;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    background-image: url("nba/basketball-wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: inline-block;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.cards-left {
+    display: inline-block;
+    width: 350px;
+    margin: auto;
+    float: left;
+}
+
+div.start-button {
+    position: inherit;
+}
+
+div.heading {
+    float: left;
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 20%;
+}
+
+.tile-container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.scores-container {
+    float: left;
+    text-align: left;
+}
+
+h1.score,
+h1.best {
+    margin: 0px 0px;
+}
+
+.scores-container>p,
+.best-container>p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 40px;
+    font-size: x-large;
+}
+
+.win {
+    margin-left: 40%;
+}
+
+.best-container {
+    text-align: left;
+    float: left;
+    margin-left: 50px;
+}
+
+.jdesfon {
+    margin-left: 185px;
+}
+
+.game-container {
+    margin-top: 5px;
+    position: relative;
+    padding: 15px;
+    cursor: default;
+    -webkit-touch-callout: none;
+    -ms-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -ms-touch-action: none;
+    touch-action: none;
+    background: black;
+    border-radius: 6px;
+    width: 500px;
+    height: 500px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-image: url(nba/cell-background.png);
+    background-size: cover;
+}
+
+.grid-container {
+    position: absolute;
+    z-index: 1;
+}
+
+.grid-row {
+    margin-bottom: 15px;
+}
+
+.grid-row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.grid-cell {
+    width: 106.25px;
+    height: 106.25px;
+    margin-right: 15px;
+    float: left;
+    border-radius: 3px;
+    background: rgba(238, 228, 218, 0.35);
+}
+
+.tile {
+    position: absolute;
+    transition-property: transform;
+}
+
+.val2 {
+    width: 105px;
+    height: 105px;
+    opacity: 1;
+    background-image: url("nba/val2.jpeg");
+    background-size: cover;
+}
+
+.val4 {
+    width: 105px;
+    height: 105px;
+    opacity: 1;
+    background-image: url("nba/val4.jpeg");
+    background-size: cover;
+}
+
+.val8 {
+    width: 105px;
+    height: 105px;
+    opacity: 1;
+    background-image: url("nba/val8.jpeg");
+    background-size: cover;
+}
+
+.val16 {
+    width: 105px;
+    height: 105px;
+    opacity: 1;
+    background-image: url("nba/val16.jpeg");
+    background-size: cover;
+}
+
+.val32 {
+    width: 105px;
+    height: 105px;
+    opacity: 1;
+    background-image: url("nba/val32.jpeg");
+    background-size: cover;
+}
+
+.val64 {
+    width: 105px;
+    height: 105px;
+    opacity: 1;
+    background-image: url("nba/val64.jpeg");
+    background-size: cover;
+}
+
+.val128 {
+    width: 105px;
+    height: 105px;
+    opacity: 1;
+    background-image: url("nba/val128.jpeg");
+    background-size: cover;
+}
+
+.val256 {
+    width: 105px;
+    height: 105px;
+    opacity: 1;
+    background-image: url("nba/val256.jpeg");
+    background-size: cover;
+}
+
+.val512 {
+    width: 105px;
+    height: 105px;
+    opacity: 1;
+    background-image: url("nba/val512.jpeg");
+    background-size: cover;
+}
+
+.val1024 {
+    width: 105px;
+    height: 105px;
+    opacity: 1;
+    background-image: url("nba/val1024.jpeg");
+    background-size: cover;
+}
+
+.val2048 {
+    width: 105px;
+    height: 105px;
+    opacity: 1;
+    background-image: url("nba/val2048.jpeg");
+    background-size: cover;
+}
+
+.val4096 {
+    width: 105px;
+    height: 105px;
+    opacity: 1;
+    background-image: url("nba/val4096.jpeg");
+    background-size: cover;
+}
+
+.val8192 {
+    width: 105px;
+    height: 105px;
+    opacity: 1;
+    background-image: url("nba/val8192.jpeg");
+    background-size: cover;
+}
+
+
+/* FIRST ROW */
+
+.position1-1 {
+    transform: translate(0px, 0px);
+}
+
+.position2-1 {
+    transform: translate(0px, 121px);
+}
+
+.position3-1 {
+    transform: translate(0px, 242px);
+}
+
+.position4-1 {
+    transform: translate(0px, 363px);
+}
+
+
+/* SECOND ROW */
+
+.position1-2 {
+    transform: translate(121px, 0px);
+}
+
+.position2-2 {
+    transform: translate(121px, 121px);
+}
+
+.position3-2 {
+    transform: translate(121px, 242px);
+}
+
+.position4-2 {
+    transform: translate(121px, 363px);
+}
+
+
+/* THIRD ROW */
+
+.position1-3 {
+    transform: translate(242px, 0px);
+}
+
+.position2-3 {
+    transform: translate(242px, 121px);
+}
+
+.position3-3 {
+    transform: translate(242px, 242px);
+}
+
+.position4-3 {
+    transform: translate(242px, 363px);
+}
+
+
+/* FOURTH ROW */
+
+.position1-4 {
+    transform: translate(363px, 0px);
+}
+
+.position2-4 {
+    transform: translate(363px, 121px);
+}
+
+.position3-4 {
+    transform: translate(363px, 242px);
+}
+
+.position4-4 {
+    transform: translate(363px, 363px);
+}
